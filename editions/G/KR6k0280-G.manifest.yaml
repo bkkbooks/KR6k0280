@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0280/G/v1
+canonical_location: https://kanripo.org/bkk/KR6k0280/G/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 菩薩戒本宗要表科
+  identifiers:
+    krp: KR6k0280
+    cbeta: G104n2265
+    cbeta_old_id: G104n2265
+    authorityid: CA0008658
+    json_key: G2265
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G104/G104n2265.xml
+    old_id: G104n2265
+  edition:
+    short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0280_000-G.yaml, hash: 'sha256:9ae8dd8121444976d5fafdbc6509ebcdf8dfd47fffb3e03e3a350d1ab86b6b15'}
+  - {seq: 1, filename: KR6k0280_001-G.yaml, hash: 'sha256:e1aec359b3b98db804af8b3db8e6a6b35c8dd050b2631f1b90bf3650be289b32'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0280_000-G.markers.yaml, hash: 'sha256:30e8ec340dae5e90d3c6c4df88437aa610c6684a931f1835fb465cef46ddafbf'}
+  - {seq: 1, role: markers, filename: assets/KR6k0280_001-G.markers.yaml, hash: 'sha256:9c2624ec67cc133479cd9da70aa592a3692722b599178622b96e46440c5af8ae'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0280_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 1276
+  label: 菩薩戒本宗要科表
+  type: juan
+  level: 1
+hash: sha256:4881c919310c35cb35e1579425f293e91203f7d09f0e9b26517d9e0fa13b9436
