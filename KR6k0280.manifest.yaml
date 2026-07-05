@@ -19,9 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0280_000.yaml, hash: 'sha256:9ae8dd8121444976d5fafdbc6509ebcdf8dfd47fffb3e03e3a350d1ab86b6b15'}
-  - {seq: 1, filename: KR6k0280_001.yaml, hash: 'sha256:22c58c471235cbcdbd842731bf81f2e0590c5c3ebbea0b03d2f65237c4d6d6ca'}
+  - {seq: 1, filename: KR6k0280_001.yaml, hash: 'sha256:e1aec359b3b98db804af8b3db8e6a6b35c8dd050b2631f1b90bf3650be289b32'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0280_001.markers.yaml, hash: 'sha256:df9e0374c3924bda5ac072af1675c5dae1068fdf96f2c5d436dec340554f875b'}
+  - {seq: 0, role: markers, filename: assets/KR6k0280_000.markers.yaml, hash: 'sha256:8235d9b2c40917d65ccd034079ab3c1be42db275b2b0b51f3712f9294b23a2c2'}
+  - {seq: 1, role: markers, filename: assets/KR6k0280_001.markers.yaml, hash: 'sha256:7bf56732d275fbbeb7062e943a1ee52e9b367d10b637832701cf734411cce547'}
 table_of_contents:
 - ref:
     seq: 1
@@ -33,7 +34,4 @@ table_of_contents:
   label: 菩薩戒本宗要科表
   type: juan
   level: 1
-hash: sha256:722ae5ecb07abfa2e90fa7b28614e64e56d6b20798f74fb18dc6c9696158d657
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:6fa1a768381193c43b76f57ba8ae84e3b1ed63bbca43e753bf2a4ed9f0255224
