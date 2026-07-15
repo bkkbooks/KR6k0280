@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0280/v1
 canonical_location: https://kanripo.org/bkk/KR6k0280/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 菩薩戒本宗要表科
   source:
@@ -19,10 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0280_000.yaml, hash: 'sha256:9ae8dd8121444976d5fafdbc6509ebcdf8dfd47fffb3e03e3a350d1ab86b6b15'}
-  - {seq: 1, filename: KR6k0280_001.yaml, hash: 'sha256:e1aec359b3b98db804af8b3db8e6a6b35c8dd050b2631f1b90bf3650be289b32'}
+  - {seq: 1, filename: KR6k0280_001.yaml, hash: 'sha256:4b45759734daadab77e5d159b3b948435baa718ec28eabcfbf24e57c4331d7ce'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0280_000.markers.yaml, hash: 'sha256:8235d9b2c40917d65ccd034079ab3c1be42db275b2b0b51f3712f9294b23a2c2'}
-  - {seq: 1, role: markers, filename: assets/KR6k0280_001.markers.yaml, hash: 'sha256:7bf56732d275fbbeb7062e943a1ee52e9b367d10b637832701cf734411cce547'}
+  - {seq: 1, role: markers, filename: assets/KR6k0280_001.markers.yaml, hash: 'sha256:df778ad01183f09a9c2b1b78f760afe448448cb39d7d1e460d4380bd30b1d25c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -34,4 +34,7 @@ table_of_contents:
   label: 菩薩戒本宗要科表
   type: juan
   level: 1
-hash: sha256:6fa1a768381193c43b76f57ba8ae84e3b1ed63bbca43e753bf2a4ed9f0255224
+hash: sha256:33a21584bc3ead0cccbc84674984d455cebb6692f26b01ef79cbfc718566af6c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
